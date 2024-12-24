@@ -8,20 +8,24 @@
 <body>
     <header>
         <nav>
-            <div class="logo">PIOURE</div>
+            <div class="logo">
+              <a href="index.html">PIOURE</a>
+            </div>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section id="hero">
-            <h1>Welcome to PIOUE</h1>
+            <h1>Welcome to PIOURE</h1>
             <p>Pho Real, It's All Vegan!</p>
-            <button onclick="scrollToSection('menu')">Explore Menu</button>
+            <a href="menu.html" style="text-decoration: none;">
+              <button>Explore Our Menu</button>
+            </a> 
         </section>
 
         <section id="about">
@@ -30,7 +34,7 @@
         </section>
 
         <section id="menu">
-            <h2>Our Menu</h2>
+            <h2>Hours & Location</h2>
             <!-- <div class="menu-item">
                 <h3>Pasta Primavera</h3>
                 <p>Fresh vegetables tossed with pasta and a light garlic sauce.</p>
@@ -42,9 +46,29 @@
         </section>
 
         <section id="contact">
-            <h2>Contact Us</h2>
+            <h2>Reservation</h2>
+            <!-- <form id="contact-form">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+
+              <button type="submit">Send</button>
+          </form> -->
         </section>
     </main>
+
+    <footer>
+      <a href="refrence.html">Refrence Page</a>
+      <a href="refrence.html">How it started</a>
+      <a href="refrence.html">Enviroment</a>
+      <a href="refrence.html">Ethical sourcing</a>
+      <a href="refrence.html">Join Our Team</a>
+    </footer>
 
     <script src="script.js"></script>
 </body>

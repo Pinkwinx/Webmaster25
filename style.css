@@ -30,6 +30,17 @@ nav {
     font-weight: bold;
 }
 
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.logo a:hover {
+    color: #f4a5b1;
+}
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -42,15 +53,16 @@ nav {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .nav-links a:hover {
     color: #f4a5b1;
+
 }
 
 #hero {
-    background-image: url('https://source.unsplash.com/1600x900/?restaurant,food');
+    /* background-image: url('https://source.unsplash.com/1600x900/?restaurant,food'); */
     background-size: cover;
     background-position: center;
     color: rgb(4, 4, 4);
@@ -115,8 +127,21 @@ h2 {
 
 footer {
     text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
-    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #76BF98;
+    /* margin-top: 3rem; */
 }
+footer a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 2.5rem;
+
+}
+footer a:hover {
+    text-decoration: underline;
+
+}
+
