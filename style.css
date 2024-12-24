@@ -155,7 +155,7 @@ footer a:hover {
 html {
     scroll-behavior: smooth;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     nav {
         flex-direction: column;
     }
@@ -172,5 +172,5 @@ html {
     #hero p {
         font-size: 1rem;
     }
-}
+} */
 
