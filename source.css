@@ -1,4 +1,4 @@
-/* styles.css */
+/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -58,29 +58,111 @@ nav {
 
 .nav-links a:hover {
     color: #f4a5b1;
-
 }
 
+/* Main Content */
+.ethics-info {
+    text-align: center;
+    padding: 3rem 2rem;
+    background-color: white;
+    margin: 3rem auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ethics-info h1 {
+    font-size: 2.5rem;
+    color: #76BF98;
+    margin-bottom: 1.5rem;
+}
+
+.ethics-info p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Image Gallery */
+.image-gallery {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 3rem auto;
+    max-width: 1000px;
+}
+
+.image-gallery h2 {
+    font-size: 2rem;
+    color: #76BF98;
+    margin-bottom: 2rem;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.image-box {
+    position: relative;
+    width: 30%;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-box:hover {
+    transform: scale(1.05);
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+    border-radius: 8px;
+    display: none;
+    text-align: center;
+}
+
+.image-box:hover .overlay {
+    display: block;
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 2rem;
     background-color: #76BF98;
     margin-top: 5rem;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: white;
     transition: all 0.3s ease;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    margin-top: 2.5rem;
-
+    margin: 0 1rem;
 }
+
 footer a:hover {
     text-decoration: underline;
-
 }
+
 html {
     scroll-behavior: smooth;
 }
-

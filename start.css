@@ -1,4 +1,3 @@
-/* styles.css */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -58,29 +57,96 @@ nav {
 
 .nav-links a:hover {
     color: #f4a5b1;
-
 }
 
+.story {
+    max-width: 800px;
+    margin: 3rem auto;
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.story h1 {
+    color: #f4a5b1;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.story p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Image Gallery */
+.image-gallery {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 3rem auto;
+    max-width: 1000px;
+}
+
+.image-gallery h2 {
+    font-size: 2rem;
+    color: #f4a5b1;
+    margin-bottom: 2rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.image-box {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-box:hover {
+    transform: scale(1.05);
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-box p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 2rem;
     background-color: #76BF98;
     margin-top: 5rem;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: white;
     transition: all 0.3s ease;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    margin-top: 2.5rem;
-
+    margin: 0 1rem;
 }
+
 footer a:hover {
     text-decoration: underline;
-
 }
+
 html {
     scroll-behavior: smooth;
 }
-
