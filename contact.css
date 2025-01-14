@@ -1,4 +1,3 @@
-/* styles.css */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -10,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #76BF98;
+    background-color: #5DAE8B;
     color: white;
     padding: 1rem 2rem;
     position: sticky;
@@ -108,7 +107,7 @@ main p {
 #contact-form input:focus,
 #contact-form textarea:focus {
     outline: none;
-    border-color: #76BF98;
+    border-color: #5DAE8B;
     box-shadow: 0 0 4px rgba(118, 191, 152, 0.5);
 }
 
@@ -135,7 +134,7 @@ main p {
 footer {
     text-align: center;
     padding: 2rem;
-    background-color: #76BF98;
+    background-color: #5DAE8B;
     margin-top: 3rem;
 }
 footer a{

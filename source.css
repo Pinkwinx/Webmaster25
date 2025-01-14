@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #76BF98;
+    background-color: #5DAE8B;
     color: white;
     padding: 1rem 2rem;
     position: sticky;
@@ -77,18 +77,20 @@ nav {
 
 .content-box {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
 }
 
 .text {
     font-size: 1.2rem;
     max-width: 600px;
+    text-align: left;
 }
 
 .image-box {
-    width: 40%;
+    width: 70%;
+    max-width: 600px;
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -108,7 +110,7 @@ nav {
 footer {
     text-align: center;
     padding: 2rem;
-    background-color: #76BF98;
+    background-color: #5DAE8B;
     margin-top: 5rem;
 }
 

@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #76BF98;
+    background-color: #5DAE8B;
     color: white;
     padding: 1rem 2rem;
     position: sticky;
@@ -130,7 +130,7 @@ nav {
 footer {
     text-align: center;
     padding: 2rem;
-    background-color: #76BF98;
+    background-color: #5DAE8B;
     margin-top: 5rem;
 }
 

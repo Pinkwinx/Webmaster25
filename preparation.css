@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #76BF98;
+    background-color: #5DAE8B;
     color: white;
     padding: 1rem 2rem;
     position: sticky;
@@ -72,7 +72,7 @@ nav {
 
 .hero-image img {
     width: 80%;
-    border-radius: 140px;
+    border-radius: 100px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
 
@@ -113,7 +113,7 @@ nav {
 footer {
     text-align: center;
     padding: 2rem;
-    background-color: #76BF98;
+    background-color: #5DAE8B;
     margin-top: 5rem;
 }
 footer a{
